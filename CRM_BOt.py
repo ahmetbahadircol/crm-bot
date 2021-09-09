@@ -6,7 +6,7 @@ from xlwt import Workbook
 from datetime import date
 import datetime
 import user_info
-import version_chromedriver
+import version_chromedriver #personel class import
 class CRM:
     def __init__(self,username,password):
         try: #check for chromedriver version or existing the chromedriver.exe file
